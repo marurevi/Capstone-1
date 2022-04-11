@@ -1,0 +1,20 @@
+{
+  "name": "capstone-1",
+  "version": "1.0.0",
+  "description": "> Online Website for a Conference",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marurevi/Capstone-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marurevi/Capstone-1/issues"
+  },
+  "homepage": "https://github.com/marurevi/Capstone-1#readme"
+}
