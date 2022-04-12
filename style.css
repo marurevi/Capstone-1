@@ -15,18 +15,37 @@
     background-repeat: repeat;
     color: #d3d3d3;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main h2 {
+    margin: 30px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color: #EC5242;
   }
   
-  .grid-container-main {
+  .container-main {
     display: flex;
     flex-direction: column;
     justify-content: center;    
   }
 
-  .grid-container-main > ul {
-    grid-row: auto;
+  .list-item {
     display: flex;
+    flex-direction: row;
     list-style: none;
+    background-color: rgb(211, 211, 211, 0.15) ;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .list-item > li {
+    margin: 2%;
   }
 
   .cocogoose {
@@ -38,7 +57,7 @@
   .lato {
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700, bold;
     font-display: swap;
   }
 
@@ -54,10 +73,57 @@
   }
 
   #joinBtn {
-      background-color: #EC5242;
-      color: #d3d3d3;
-      border: none;
-      padding: 10px;
-      margin: 10px;
+    background-color: #EC5242;
+    font-size: 16px;
+    color: #d3d3d3;
+    border: none;
+    padding: 20px;
+    margin: 30px;
+  }
+
+  .article {
+    color: #272A31;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article h2 {
+    margin: 30px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color: #EC5242;
+  }
+
+  .list-item-speaker {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .list-item-speaker ul {
+    margin: 2%;
+    list-style: none;
+  }
+  
+  .list-item-speaker li {
+    margin: 3%;
+  }
+
+  #moreBtn {
+    border: #272A31 2px solid;
+    border-radius: 15px;
+    background-color: none;
+    font-size: 16px;
+    color: #272A31;
+    border: none;
+    padding: 20px;
+    margin: 30px 0;
+    width: 100%;
   }
 }

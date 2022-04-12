@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
   <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
   <title>CC-Global-Summit-2015</title>
 </head>
@@ -21,36 +21,61 @@
       <h1>2015.10.15(THU) ~ 16(FRI)</h1>
       <p>@ National Museum of Korea, Art Center Nabi and more</p>
   </header>
-  <main class="main cocogoose">
+  <main class="main lato">
     <h2>Main Program</h2>
-    <div class="grid-container-main cocogoose"></div>
-    <ul>
+    <div class="container-main cocogoose"></div>
+    <ul class="list-item">
       <li><img src="./images/program_icon_01.png" alt="lecture"></li>
       <li class="text1 cocogoose">Lecture</li>
-      <li class="text2 cocogoose">Listen to the speakers from verious countries about the messeges of sharing and opening.</li>
+      <li class="text2 lato">Listen to the speakers from verious countries about the messeges of sharing and opening.</li>
     </ul>
-    <ul>
+    <ul class="list-item">
       <li><img src="./images/program_icon_02.png" alt="CC Exibition"></li>
       <li class="text1 cocogoose">CC Exibition</li>
-      <li class="text2 cocogoose">Appreciate various creations applying CC license of artist, organized from Art Center Nabi.</li>
+      <li class="text2 lato">Appreciate various creations applying CC license of artist, organized from Art Center Nabi.</li>
     </ul>
-    <ul>
+    <ul class="list-item">
       <li><img src="./images/program_icon_03.png" alt="Forum"></li>
       <li class="text1 cocogoose">Forum</li>
-      <li class="text2 cocogoose">Have the time to share your thoughts and opinions with experts for each topic.</li>
+      <li class="text2 lato">Have the time to share your thoughts and opinions with experts for each topic.</li>
     </ul>
-    <ul>
+    <ul class="list-item">
       <li><img src="./images/program_icon_04.png" alt="Workshop"></li>
       <li class="text1 cocogoose">Workshop</li>
-      <li class="text2 cocogoose">Try creating your own work using open source license rather than just watching.</li>
+      <li class="text2 lato">Try creating your own work using open source license rather than just watching.</li>
     </ul>
-    <ul>
+    <ul class="list-item">
       <li><img src="./images/program_icon_05.png" alt="CC Ignite"></li>
       <li class="text1 cocogoose">CC Ignite</li>
-      <li class="text2 cocogoose">Get oportunities to network with CC affiliates around the world, also after the summit.</li>
+      <li class="text2 lato">Get oportunities to network with CC affiliates around the world, also after the summit.</li>
     </ul>
     <button type="button" class="lato" id="joinBtn">Join CC Global Summit 2015</button>
-  </main>    
+  </main>
+  <article class="article lato">
+    <h2>Featured Speakers</h2>
+    <div class="container-article cocogoose"></div>
+      <div class="list-item-speaker">
+        <ul> 
+          <li><img src="./images/speaker_01.png" alt="lecture"></li>
+        </ul>
+        <ul>
+          <li>Yochai Benkler</li>
+          <li class="text1 cocogoose">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</li>
+          <li class="text2 lato">Benkler studies commons-based peer production, and published his seminal book The Welth of Networks in 2006.</li>
+        </ul>
+      </div>
+      <div class="list-item-speaker">
+        <ul> 
+          <li><img src="./images/speaker_01.png" alt="lecture"></li>
+        </ul>
+        <ul>
+          <li>Yochai Benkler</li>
+          <li class="text1 cocogoose">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</li>
+          <li class="text2 lato">Benkler studies commons-based peer production, and published his seminal book The Welth of Networks in 2006.</li>
+        </ul>
+      </div>
+    <button type="button" class="lato" id="moreBtn">More <span><img src="./images/arrow_down.png" alt="arrow down"></span></button>
+  </article>
   <script src="script.js"></script>
 </body>
 </html>
