@@ -151,3 +151,154 @@
     align-items: center;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .ab-header {
+    background-image: url(./images/about_bg_01.png);
+    background-repeat: no-repeat;
+    background-color: #f4f3f3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .headline,
+  .ab-header nav > button {
+    display: none;
+  }
+
+  .abText {
+    margin: 10% 0 5% 0;
+    color: #ec5242;
+    font-size: 4em;
+  }
+
+  .ab-textBox {
+    font-size: 2em;
+    color: rgb(39, 42, 49, 0.7);
+    background-color: white;
+    padding: 2vh 3vw;
+    width: 60%;
+    margin: 5vh auto;
+  }
+
+  .contact {
+    font-size: 2em;
+    width: 80%;
+    color: rgb(39, 42, 49, 0.7);
+    margin: 5vh auto 1vh auto;
+  }
+
+  .mail {
+    font-size: 2em;
+    text-underline-offset: 2px;
+    color: #272a31;
+    margin-bottom: 10%;
+  }
+
+  .ab-main {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ab-main h3 {
+    font-size: 3em;
+    margin-top: 30px;
+  }
+
+  .ab-main hr {
+    margin: 15px 0;
+    border: #ec5242 1px solid;
+    width: 10%;
+  }
+
+  .ab-mainText {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: rgb(39, 42, 49, 0.7);
+  }
+
+  .ab-article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #272a31;
+    margin: 5%;
+  }
+
+  .ab-article h3 {
+    margin-top: 30px;
+    font-size: 3em;
+  }
+
+  .ab-article hr {
+    margin: 15px 0;
+    border: #ec5242 1px solid;
+    width: 10%;
+  }
+
+  .ab-article p {
+    text-align: center;
+    font-size: 2em;
+    margin: 1%;
+    color: rgb(39, 42, 49, 0.7);
+  }
+
+  footer img {
+    filter: invert();
+    margin: 2%;
+  }
+
+  .ab-article img {
+    margin: 2%;
+  }
+
+  .ab-artPartner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f4f3f3;
+    background-color: rgb(39, 42, 49, 0.9);
+  }
+
+  .ab-artPartner h3 {
+    margin-top: 5%;
+    font-size: 3em;
+  }
+
+  .ab-artPartner hr {
+    margin: 15px 0;
+    border: #ec5242 1px solid;
+    width: 10%;
+  }
+
+  .sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2%;
+  }
+
+  .sponsors img {
+    width: 35%;
+    height: auto;
+    margin: 1%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #272a31;
+    padding: 3%;
+    text-align: center;
+    align-items: center;
+  }
+}

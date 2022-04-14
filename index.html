@@ -13,50 +13,67 @@
 </head>
 <body>
   <header class="header">
-      <nav>
-          <button type="button"><img src="./images/mobile_menu.png" alt="mobile menu icon"></button>
+      <nav class="nav">
+          <div class="top-menu">
+            <img src="./images/facebook.png" alt="facebook icon">
+            <img src="./images/twitter.png" alt="twitter icon">
+            <p class="lato">English</p>
+            <p class="lato">My Page</p>
+            <p class="lato">Logout</p>
+          </div>
+          <button type="button" class="menuBtn"><img src="./images/mobile_menu.png" alt="mobile menu icon"></button>
+          <div class="menu-bar lato">
+            <a href="./about.html">About</a>
+            <a href="#program">Program</a>
+            <a href="#">Job</a>
+            <a href="#">Sponsor</a>
+            <a href="#">News</a>
+            <button type="button">CC Campaign</button>
+          </div>
       </nav>
       <p class="lato headline">"Hello, Sharing world!"</p>
       <h1 class="maskText cocogoose">CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
       <p class="textBox lato">A joyful celebration believing in the value of openness and sharing. creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
-      <h2 class="date cocogosse">2015.10.15(THU) ~ 16(FRI)</h2>
+      <h2 class="date cocogoose">2015.10.15(THU) ~ 16(FRI)</h2>
       <p class="lato place">@ National Museum of Korea, Art Center Nabi and more</p>
   </header>
-  <main class="main lato">
+  <main class="main lato" id="program">
     <h3>Main Program</h3>
     <hr>
-    <div class="container-main cocogoose"></div>
-    <ul class="list-item">
-      <li><img src="./images/program_icon_01.png" alt="lecture"></li>
-      <li class="text1 cocogoose">Lecture</li>
-      <li class="text2 lato">Listen to the speakers from verious countries about the messeges of sharing and opening.</li>
-    </ul>
-    <ul class="list-item">
-      <li><img src="./images/program_icon_02.png" alt="CC Exibition"></li>
-      <li class="text1 cocogoose">CC Exibition</li>
-      <li class="text2 lato">Appreciate various creations applying CC license of artist, organized from Art Center Nabi.</li>
-    </ul>
-    <ul class="list-item">
-      <li><img src="./images/program_icon_03.png" alt="Forum"></li>
-      <li class="text1 cocogoose">Forum</li>
-      <li class="text2 lato">Have the time to share your thoughts and opinions with experts for each topic.</li>
-    </ul>
-    <ul class="list-item">
-      <li><img src="./images/program_icon_04.png" alt="Workshop"></li>
-      <li class="text1 cocogoose">Workshop</li>
-      <li class="text2 lato">Try creating your own work using open source license rather than just watching.</li>
-    </ul>
-    <ul class="list-item">
-      <li><img src="./images/program_icon_05.png" alt="CC Ignite"></li>
-      <li class="text1 cocogoose">CC Ignite</li>
-      <li class="text2 lato">Get oportunities to network with CC affiliates around the world, also after the summit.</li>
-    </ul>
+    <div class="container-main cocogoose">
+      <ul class="list-item">
+        <li><img src="./images/program_icon_01.png" alt="lecture"></li>
+        <li class="text1 cocogoose">Lecture</li>
+        <li class="text2 lato">Listen to the speakers from verious countries about the messeges of sharing and opening.</li>
+      </ul>
+      <ul class="list-item">
+        <li><img src="./images/program_icon_02.png" alt="CC Exibition"></li>
+        <li class="text1 cocogoose">CC Exibition</li>
+        <li class="text2 lato">Appreciate various creations applying CC license of artist, organized from Art Center Nabi.</li>
+      </ul>
+      <ul class="list-item">
+        <li><img src="./images/program_icon_03.png" alt="Forum"></li>
+        <li class="text1 cocogoose">Forum</li>
+        <li class="text2 lato">Have the time to share your thoughts and opinions with experts for each topic.</li>
+      </ul>
+      <ul class="list-item">
+        <li><img src="./images/program_icon_04.png" alt="Workshop"></li>
+        <li class="text1 cocogoose">Workshop</li>
+        <li class="text2 lato">Try creating your own work using open source license rather than just watching.</li>
+      </ul>
+      <ul class="list-item">
+        <li><img src="./images/program_icon_05.png" alt="CC Ignite"></li>
+        <li class="text1 cocogoose">CC Ignite</li>
+        <li class="text2 lato">Get oportunities to network with CC affiliates around the world, also after the summit.</li>
+      </ul>
+    </div>
     <button type="button" class="lato" id="joinBtn">Join CC Global Summit 2015</button>
+    <a href="#" class="lato" id="program-link">SEE THE WHOLE PROGRAM</a>
   </main>
   <article class="article lato">
     <h3>Featured Speakers</h3>
     <hr>
-    <div class="container-article cocogoose"></div>
+    <div class="container-article cocogoose">
       <div class="list-item-speaker">
         <ul> 
           <li><img src="./images/speaker_01.png" alt="lecture"></li>
@@ -76,7 +93,8 @@
           <li class="text1 cocogoose">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</li>
           <li class="text2 lato">Benkler studies commons-based peer production, and published his seminal book The Welth of Networks in 2006.</li>
         </ul>
-      </div>
+       </div>
+    </div>
     <button type="button" class="lato" id="moreBtn">More <span><img src="./images/arrow_down.png" alt="arrow down"></span></button>
   </article>
   <script src="script.js"></script>
