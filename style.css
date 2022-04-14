@@ -19,9 +19,9 @@
   .header {
     background-image: url(./images/main_big.png);
     background-repeat: no-repeat;
-    padding: 20px;
     display: flex;
     flex-direction: column;
+    padding: 2vh 3vw;
   }
 
   .top-menu,
@@ -37,16 +37,22 @@
   }
 
   .headline {
-    font-size: 24px;
+    font-size: 28px;
     color: #ec5242;
-    margin-top: 50px;
+  }
+
+  .box-desktop {
+    background-color: rgb(30 30 30 / 80%);
+    border-radius: 35px;
+    margin: 10% 3% 0 3%;
+    padding: 3%;
   }
 
   .maskText {
-    background: url(./images/MainPhoto.jpg) no-repeat;
-    -webkit-background-clip: text;
+    background: url(./images/MainPhoto.jpg) repeat;
     color: transparent;
-    font-size: xx-large;
+    -webkit-background-clip: text;
+    font-size: 2.5em;
   }
 
   .textBox {
@@ -60,15 +66,17 @@
   }
 
   .date {
-    color: #272a31;
+    color: #ec5242;
     font-size: 24px;
     text-align: center;
+    text-shadow: #272a31 2px 2px 3px;
   }
 
   .place {
-    color: #272a31;
+    color: #ec5242;
     font-size: 14px;
     text-align: center;
+    text-shadow: #272a31 2px 2px 3px;
   }
 
   .main {
@@ -207,16 +215,15 @@
     display: flex;
     flex-direction: column;
   }
-
+  
   .headline {
     font-size: 4em;
     color: #ec5242;
-    margin-top: 10%;
   }
 
   .header .headline,
   .header h1 {
-    padding: 0 20vw 0 5vw;
+    padding: 2vh 5vw;
   }
 
   .top-menu {
@@ -265,11 +272,23 @@
     margin: 0 1em;
   }
 
+  .menu-bar a:hover {
+    text-decoration: none;
+    color: #ec5242;
+    margin: 0 1em;
+  }
+
+  .box-desktop {
+    background-color: rgb(30 30 30 / 80%);
+    border-radius: 35px;
+    margin: 10% 35% 0 3%;
+  }
+
   .maskText {
-    background: url(./images/MainPhoto.jpg) no-repeat;
+    background: url(./images/MainPhoto.jpg) repeat;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 5em;
+    font-size: 6em;
   }
 
   .textBox {
@@ -284,17 +303,19 @@
   }
 
   .date {
-    color: #272a31;
+    color: #ec5242;
     font-size: 4em;
     text-align: center;
     margin-left: 0;
+    text-shadow: #272a31 2px 2px 3px;
   }
 
   .place {
-    color: #272a31;
+    color: #ec5242;
     font-size: 2em;
     text-align: center;
     margin-bottom: 20vh;
+    text-shadow: #272a31 2px 2px 3px;
   }
 
   .main {
@@ -335,6 +356,10 @@
     margin: 1%;
     padding: 2%;
     align-items: center;
+  }
+
+  .list-item:hover {
+    border: #ec5242 1px solid;
   }
 
   .list-item > li {
