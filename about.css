@@ -24,13 +24,21 @@
     left: 20px;
   }
 
+  .ab-container {
+    margin-top: 10%;
+    background-image: url(./images/pngwing.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 40%;
+  }
+
   .abText {
     color: #ec5242;
   }
 
   .ab-textBox {
     color: rgb(39, 42, 49, 0.7);
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     margin: 20px 0;
   }
@@ -136,7 +144,7 @@
   }
 
   .sponsors img {
-    width: 35%;
+    width: 30%;
     height: auto;
     margin: 10px;
   }
@@ -168,6 +176,13 @@
     display: none;
   }
 
+  .ab-container {
+    background-image: url(./images/pngwing.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 40%;
+  }
+
   .abText {
     margin: 10% 0 5% 0;
     color: #ec5242;
@@ -177,7 +192,7 @@
   .ab-textBox {
     font-size: 2em;
     color: rgb(39, 42, 49, 0.7);
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 2vh 3vw;
     width: 60%;
     margin: 5vh auto;
