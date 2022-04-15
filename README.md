@@ -12,6 +12,10 @@
 
 You can see how it looks here 👉[Capstone](https://marurevi.github.io/Capstone-1/)
 
+![Preview 1](https://user-images.githubusercontent.com/92180054/163624018-f2164b1a-aa35-4b9e-9e23-1ad2755f08e4.png)
+
+![Preview 2](https://user-images.githubusercontent.com/92180054/163624022-6ff91316-ea97-49c8-b5dd-072d2bb24299.png)
+
 ## Authors
 
 👤 **Mariana Revilla Lérida**
