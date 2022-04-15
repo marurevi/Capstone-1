@@ -3,7 +3,23 @@
   padding: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
+  .cocogoose {
+    font-family: 'COCOGOOSE', serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .lato {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+
   .ab-header {
     background-image: url(./images/about_bg_01.png);
     background-repeat: no-repeat;
@@ -24,9 +40,23 @@
     left: 20px;
   }
 
+  #menuBtn {
+    width: 50px;
+    height: 44px;
+    align-items: flex-end;
+    border: none;
+    background-color: transparent;
+  }
+
+  .headline {
+    font-size: 28px;
+    color: #ec5242;
+    margin-top: 10%;
+  }
+
   /* MENU POPUP */
-  .menuPopup {
     
+  .menuPopup {
     display: flex;
     flex-direction: column;
     align-items: right;
@@ -39,34 +69,45 @@
     background-image: url(./images/capitanAmerica.png);
     background-repeat: no-repeat;
     background-position: bottom left;
-    background-size: 50%;
-    padding: 10% 5% 0 0; 
+    background-size: 40%;
+    padding: 5% 5% 0 0; 
   }
 
   .menu-item {
     text-decoration: none;
     color: #ec5242;
     text-shadow: #272a31 2px 2px 5px;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 5vh 10vw;
   }
-
-  .btnposition {
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    width: 30px;
-    height: 30px;
+  
+  .menuBtn {
+    background-image: url(./images/mobile_menu.png);
+    background-repeat: no-repeat;
   }
 
-  #ab-ccbutton {
+  .btnClose {
+    background-image: url(./images/close_mobile_menu.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    background-position: inherit;
+    position: fixed;
+    border: none;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    top: 10%;
+    left: 10%;
+  }
+
+  #ccbutton {
     display: none;
   }
-  
+
   /* END */
 
-  .ab-container {
+  .container {
     margin-top: 10%;
     background-image: url(./images/pngwing.png);
     background-repeat: no-repeat;
@@ -203,6 +244,35 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .cocogoose {
+    font-family: 'COCOGOOSE', serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .lato {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .top-menu {
+    display: block;
+    display: flex;
+    background-color: #272a31;
+    color: #d3d3d3;
+    font-size: 24px;
+    padding: 1vh 2vw;
+    justify-content: flex-end;
+  }
+
+  .top-menu img,
+  .top-menu p {
+    margin: 0 1.5vw;
+  }
+
+  .nav .menuBtn .hidden
+
   .ab-header {
     background-image: url(./images/about_bg_01.png);
     background-repeat: no-repeat;
@@ -213,16 +283,57 @@
     justify-content: center;
   }
 
+  .menu-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(./images/about_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    background-position: top left;
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .menu-bar button {
+    font: 1em sans-serif;
+    color: #ec5242;
+    border: #ec5242 solid 5px;
+    padding: 0.2em;
+    margin: 1em;
+  }
+
+  .menu-bar a {
+    text-decoration: none;
+    color: #272a31;
+    margin: 0 1em;
+  }
+
+  .menu-bar a:hover {
+    text-decoration: none;
+    color: #ec5242;
+    margin: 0 1em;
+  }
+
+  .headline {
+    font-size: 4em;
+    color: #ec5242;
+  }
+
   .headline,
   .ab-header nav > button {
     display: none;
-  }
+  } 
 
   .ab-container {
     background-image: url(./images/pngwing.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .abText {

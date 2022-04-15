@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="about.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,21 +14,23 @@
 <body>
   <header class="ab-header">
       <nav class="nav">
-        <div class="top-menu">
+        <div class="top-menu hidden">
           <img src="./images/facebook.png" alt="facebook icon">
           <img src="./images/twitter.png" alt="twitter icon">
           <p class="lato">English</p>
           <p class="lato">My Page</p>
           <p class="lato">Logout</p>
         </div>
-        <button type="button" class="menuBtn" id="ab-menuBtn"><img src="./images/mobile_menu.png" alt="mobile menu icon" id="ab-imgBtn"></button>
-        <div class="menu-bar lato" id="ab-menu-bar">
+        <div class="menu-bar lato hidden" id="menu-bar">
           <a href="./index.html" class="menu-item">Home</a>
+          <a href="#" class="menu-item">About</a>          
           <a href="#past" class="menu-item">Past Conventions</a>
           <a href="https://www.comic-con.org/" class="menu-item">Sponsor</a>
           <a href="https://comic-con.com.ar/" class="menu-item">News</a>
-          <a href="./index.html"><button type="button" id="ab-ccbutton">Comic Con 2022</button></a>
+          <a href="./index.html"><button type="button" id="ccbutton">Comic Con 2022</button></a>
         </div>
+        <button type="button" class="menuBtn" id="menuBtn"></button>
+        <button type="button" class="btnClose hidden" id="quitBtn"></button>
       </nav>
       <div class="ab-container">
         <p class="lato headline">"Hello, COMICONERS!!!"</p>
@@ -70,6 +71,6 @@
     <img src="./images/logo_cc_w_147x35.png" alt="ccsumit2015">
     <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
   </footer>
-  <script src="about.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

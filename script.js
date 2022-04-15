@@ -1,22 +1,29 @@
-const menuButton = document.getElementById('menuBtn');
-const imgCross = document.getElementById('imgBtn');
+const hamburger = document.getElementById('menuBtn');
+const quitBtn = document.querySelector('.btnClose');
 const menuPopup = document.getElementById('menu-bar');
 const menuItems = document.querySelectorAll('.menu-item');
+//menuPopup.className ='menuPopup';
+menuPopup.classList.add ('hidden');
 
 function closePopup () {
-  imgCross.src = "./images/mobile_menu.png";
-  menuButton.classList.remove('btnposition');
-  menuPopup.classList.remove ('menuPopup');
+  hamburger.classList.toggle('hidden');
+  quitBtn.classList.toggle('hidden');
+  menuItems.forEach(item => {menuPopup.remove(item)});
+  menuPopup.classList.toggle('hidden');
 }
 
 function menuDisplay () {
-  imgCross.src = './images/close_mobile_menu.png';
-  menuButton.classList.add('btnposition')
-  menuPopup.classList.add ('menuPopup');
+  hamburger.classList.toggle('hidden');
+  quitBtn.classList.toggle('hidden');
+  //menuPopup.classList.toggle('hidden');
+  menuPopup.appendChild(quitBtn);
   menuItems.forEach(item => {menuPopup.appendChild(item);
     item.addEventListener('click', closePopup)
   });
-  menuButton.addEventListener('click', closePopup);
+  quitBtn.addEventListener('click', closePopup);
 }
 
-menuButton.addEventListener('click', menuDisplay);
+hamburger.addEventListener('click', menuDisplay);
+
+
+

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .cocogoose {
     font-family: 'COCOGOOSE', serif;
@@ -24,11 +28,6 @@
     padding: 2vh 3vw;
   }
 
-  .top-menu,
-  .menu-bar {
-    display: none;
-  }
-
   #menuBtn {
     width: 50px;
     height: 44px;
@@ -38,8 +37,9 @@
   }
 
   /* MENU POPUP */
+  
   .menuPopup {
-    display: block;
+    
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -52,23 +52,34 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 60%;
-    padding: 10% 0 0 5%; 
+    padding: 5% 0 0 5%; 
   }
 
   .menu-item {
     text-decoration: none;
     color: #ec5242;
     text-shadow: #272a31 2px 2px 5px;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 5vh 10vw;
   }
-  .btnposition {
+
+  .menuBtn {
+    background-image: url(./images/mobile_menu.png);
+    background-repeat: no-repeat;
+  }
+
+  .btnClose {
+    background-image: url(./images/close_mobile_menu.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 50px;
+    border: none;
     position: fixed;
+    width: 50px;
+    height: 50px;
     z-index: 1;
     top: 10%;
     right: 10%;
-    width: 25px;
-    height: 25px;
   }
 
   #ccbutton {
@@ -262,24 +273,31 @@
     color: #ec5242;
   }
 
-  .header .headline,
+  .header,
+  .headline,
   .header h1 {
     padding: 2vh 5vw;
   }
 
   .top-menu {
-    display: block;
     display: flex;
     background-color: #272a31;
     color: #d3d3d3;
-    font-size: 24px;
-    padding: 1vh 2vw;
+    font-size: 2em;
+    width: 100%;
+    align-items: center;
     justify-content: flex-end;
+    padding: 1vh 0;
   }
 
   .top-menu img,
   .top-menu p {
     margin: 0 1.5vw;
+  }
+
+  .top-menu img {
+    width: .5em;
+    height: .75em;
   }
 
   .nav .menuBtn {
