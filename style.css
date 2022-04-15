@@ -37,12 +37,11 @@
   }
 
   /* MENU POPUP */
-  
+
   .menuPopup {
-    
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     justify-content: center;
     position: fixed;
     width: 100%;
@@ -52,7 +51,7 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 60%;
-    padding: 5% 0 0 5%; 
+    padding: 5% 0 0 5%;
   }
 
   .menu-item {
@@ -85,7 +84,7 @@
   #ccbutton {
     display: none;
   }
-  
+
   /* END */
 
   .headline {
@@ -267,7 +266,7 @@
     display: flex;
     flex-direction: column;
   }
-  
+
   .headline {
     font-size: 4em;
     color: #ec5242;
@@ -296,8 +295,8 @@
   }
 
   .top-menu img {
-    width: .5em;
-    height: .75em;
+    width: 0.5em;
+    height: 0.75em;
   }
 
   .nav .menuBtn {
@@ -308,11 +307,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(./images/about_logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: transparent;
-    background-position: top left;
     width: 100%;
     font-size: 2em;
   }

@@ -3,24 +3,25 @@ const quitBtn = document.querySelector('.btnClose');
 const menuPopup = document.getElementById('menu-bar');
 const menuItems = document.querySelectorAll('.menu-item');
 
-menuPopup.classList.add ('hidden');
+menuPopup.classList.add('hidden');
 
-function closePopup () {
+function closePopup() {
   hamburger.classList.toggle('hidden');
   quitBtn.classList.toggle('hidden');
-  menuItems.forEach(item => {menuPopup.remove(item)});
+  menuItems.forEach((item) => { menuPopup.remove(item); });
   menuPopup.classList.toggle('hidden');
 }
 
-function menuDisplay () {
+function menuDisplay() {
   hamburger.classList.toggle('hidden');
   quitBtn.classList.toggle('hidden');
   menuPopup.classList.add('menuPopup');
   menuPopup.classList.remove('hidden');
-  
+
   menuPopup.appendChild(quitBtn);
-  menuItems.forEach(item => {menuPopup.appendChild(item);
-    item.addEventListener('click', closePopup)
+  menuItems.forEach((item) => {
+    menuPopup.appendChild(item);
+    item.addEventListener('click', closePopup);
   });
   quitBtn.addEventListener('click', closePopup);
 }
@@ -34,56 +35,56 @@ const cards = document.querySelector('.container-article');
 const speakers = [
   {
     id: 'card1',
-    soloist: 'Hilary Hahn',
+    soloist: 'Captain Marvel',
     photo: './images/speaker_01.png',
-    power: 'sfffsgg',
-    description: ' She has performed throughout the world as a soloist with leading orchestras and conductors and as a recitalist. ',
+    power: 'Enhanced Physical Abilities.',
+    description: "Captain Carol Danvers is a former United States Air Force pilot who, upon destroying the Lightspeed Engine made by her mentor Mar-Vell, was exposed to the Tesseract's energy, gaining cosmic powers and was abducted to serve the Kree Empire.",
   },
 
   {
     id: 'card2',
-    speaker: 'Yuja Wang',
+    speaker: 'Green Lantern',
     photo: './images/speaker_02.png',
-    power: 'sfffsgg',
-    description: 'is a Chinese classical pianist. She was born in Beijing, began studying piano there at age six, and went on to study at the Central Conservatory of Music in Beijing.',
+    power: 'Power Ring',
+    description: 'Green Lantern is the alias of several fictional superheroes of the DC Universe, from the DC Comics publisher, which are characterized by carrying a ring of power and having the ability to create manifestations of solid light with said rings.',
   },
 
   {
     cardid: 'card3',
-    speaker: 'Pacho flores',
+    speaker: 'Doctor Strange',
     photo: './images/speaker_03..png',
-    power: 'sfffsgg',
-    description: 'Pacho Flores was awarded First Prize in the “Maurice André” International Contest, the most renowned trumpet Contest in the world.',
+    power: 'Magic to control the multiverse',
+    description: "Doctor Strange serves as the Sorcerer Supreme, Earth's foremost protector against magical and mystical threats.",
   },
 
   {
     cardid: 'card4',
-    speaker: 'Mischa Maisky',
+    speaker: 'Spiderman',
     photo: './images/speaker_04.png',
-    power: 'sfffsgg',
-    description: 'He was taught by Mstislav Rostropovich at the Moscow Conservatory from 1966 to 1970. In 1966, he won sixth prize at the in the most famous Cello contest.',
+    power: 'Spider powers',
+    description: 'is a superhero who uses his superhuman abilities, reminiscent of a spider , to combat other supervillains who pursue sinister ends.',
   },
 
   {
     cardid: 'card5',
-    speaker: 'Manuel Barrueco',
+    speaker: 'Iron Man',
     photo: './images/speaker_05.png',
-    power: 'sfffsgg',
-    description: 'Manuel Barrueco is a Cuban classical guitarist. During three decades of concert performances he has performed and recorded across the United States ',
+    power: 'As Tony Stark: Genius level intellect, scientific expert and engineer. As Iron Man: Superhuman strength and durability, supersonic flight.',
+    description: 'Iron Man is a superhero who appears in American comics published by Marvel Comics. The character was co-created by writer-editor Stan Lee, developed by screenwriter Larry Lieber, and designed by artists Don Heck and Jack Kirby.',
   },
 
   {
     cardid: 'card6',
-    speaker: 'itzhak perlman',
+    speaker: 'Thor',
     photo: './images/speaker_06.png',
-    power: 'sfffsgg',
-    description: 'Is an Israeli-American violinist, conductor, and music teacher. Perlman has performed worldwide, and throughout the United States',
+    power: 'Superhuman strength, and longevity. Abilities through Mjolnir: Interdimensional Teleportation. Electrical manipulation. Flight. Time manipulation.',
+    description: 'Thor Odinson is the God of Thunder, former King of New Asgard, and a founding member of the Avengers. When his irresponsible behavior threatened the Asgardians to enter another war with the Frost Giants, he was stripped of his power and banished to Earth by his father, Odin.',
   },
 ];
 
 const Card = ({
-  speaker, photo, description, id, power}) => 
-  `<div class="list-item-speaker" id= "${id}">
+  speaker, photo, description, id, power,
+}) => `<div class="list-item-speaker" id= "${id}">
     <ul> 
       <li><img src="${photo}" alt="${speaker}" class="cards-img"></li>
     </ul>
@@ -97,4 +98,3 @@ const Card = ({
 speakers.forEach((heroe) => {
   cards.insertAdjacentHTML('afterbegin', Card(heroe));
 });
-

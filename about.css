@@ -55,11 +55,11 @@
   }
 
   /* MENU POPUP */
-    
+
   .menuPopup {
     display: flex;
     flex-direction: column;
-    align-items: right;
+    align-items: flex-end;
     justify-content: center;
     text-align: right;
     position: fixed;
@@ -70,7 +70,7 @@
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 40%;
-    padding: 5% 5% 0 0; 
+    padding: 5% 5% 0 0;
   }
 
   .menu-item {
@@ -80,7 +80,7 @@
     font-size: 2.5em;
     margin: 5vh 10vw;
   }
-  
+
   .menuBtn {
     background-image: url(./images/mobile_menu.png);
     background-repeat: no-repeat;
@@ -266,14 +266,17 @@
     justify-content: flex-end;
   }
 
+  footer img {
+    filter: invert();
+    margin: 2%;
+  }
+
   .top-menu img,
   .top-menu p {
     margin: 0 1.5vw;
   }
 
-  .nav .menuBtn .hidden
-
-  .ab-header {
+  .nav .menuBtn .hidden .ab-header {
     background-image: url(./images/about_bg_01.png);
     background-repeat: no-repeat;
     background-color: #f4f3f3;
@@ -286,12 +289,8 @@
   .menu-bar {
     display: flex;
     justify-content: flex-end;
+    text-align: center;
     align-items: center;
-    background-image: url(./images/about_logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: transparent;
-    background-position: top left;
     width: 100%;
     font-size: 2em;
   }
@@ -324,7 +323,7 @@
   .headline,
   .ab-header nav > button {
     display: none;
-  } 
+  }
 
   .ab-container {
     background-image: url(./images/pngwing.png);
@@ -417,11 +416,6 @@
     font-size: 2em;
     margin: 1%;
     color: rgb(39, 42, 49, 0.7);
-  }
-
-  footer img {
-    filter: invert();
-    margin: 2%;
   }
 
   .ab-article img {
