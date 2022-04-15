@@ -1,6 +1,6 @@
-const menuButton = document.getElementById('menuBtn');
-const imgCross = document.getElementById('imgBtn');
-const menuPopup = document.getElementById('menu-bar');
+const menuButton = document.getElementById('ab-menuBtn');
+const imgCross = document.getElementById('ab-imgBtn');
+const menuPopup = document.getElementById('ab-menu-bar');
 const menuItems = document.querySelectorAll('.menu-item');
 
 function closePopup () {
