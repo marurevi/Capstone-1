@@ -1,59 +1,28 @@
 # Capstone-1
 
-> Online Website for a Conference
+> In this capstone project, I built an online website for a conference. I used the guidelines of the template created for Cindy Shin.The website con a fake conference of Comic Con. All the content was free images that I download from internet and enhace some of them with photoshop.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+You can see how it looks here 👉[Capstone](https://marurevi.github.io/Capstone-1/)
 
+![Preview 1](https://user-images.githubusercontent.com/92180054/163624018-f2164b1a-aa35-4b9e-9e23-1ad2755f08e4.png)
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+![Preview 2](https://user-images.githubusercontent.com/92180054/163624022-6ff91316-ea97-49c8-b5dd-072d2bb24299.png)
 
 ## Authors
 
-👤 **Author1**
+👤 **Mariana Revilla Lérida**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@marurevi](https://github.com/marurevi)
+- Twitter: [@MaruRevilla](https://twitter.com/MaruRevilla)
+- LinkedIn: [Mariana-Revilla-Lérida](https://linkedin.com/in/mariana-revilla-lérida-a12aba143)
 
 ## Show your support
 
@@ -61,9 +30,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Original design idea by Cindy Shin in Behance. 👉[Template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
