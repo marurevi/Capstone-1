@@ -242,7 +242,7 @@
     margin: 3%;
   }
 
-  .ab-artPartner {
+  .artPartner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,12 +250,12 @@
     background-color: rgb(39, 42, 49, 0.9);
   }
 
-  .ab-artPartner h3 {
+  .artPartner h3 {
     margin-top: 30px;
     font-size: 18px;
   }
 
-  .ab-artPartner hr {
+  .artPartner hr {
     margin: 15px 0;
     border: #ec5242 1px solid;
     width: 10%;
@@ -534,7 +534,7 @@
     margin: 3%;
   }
 
-  .ab-artPartner {
+  .artPartner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -542,12 +542,12 @@
     background-color: rgb(39, 42, 49, 0.9);
   }
 
-  .ab-artPartner h3 {
+  .artPartner h3 {
     margin-top: 5%;
     font-size: 3em;
   }
 
-  .ab-artPartner hr {
+  .artPartner hr {
     margin: 15px 0;
     border: #ec5242 1px solid;
     width: 10%;
