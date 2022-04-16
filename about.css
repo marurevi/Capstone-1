@@ -422,6 +422,10 @@
     margin: 2%;
   }
 
+  .past-container {
+    display: flex;
+  }
+
   .ab-artPartner {
     display: flex;
     flex-direction: column;

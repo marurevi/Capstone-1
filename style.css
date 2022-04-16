@@ -22,7 +22,9 @@
 
   .header {
     background-image: url(./images/main_big.png);
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     padding: 2vh 3vw;
@@ -184,6 +186,12 @@
     font-weight: 200;
   }
 
+  .text3 {
+    font-size: 12px;
+    color: rgb(39, 42, 49, 65);
+    font-weight: 200;
+  }
+
   #joinBtn {
     background-color: #ec5242;
     font-size: 16px;
@@ -234,15 +242,51 @@
     margin: 3%;
   }
 
-  #moreBtn {
-    border: #d3d3d3 1px solid;
-    border-radius: 5px;
-    background-color: white;
-    font-size: 16px;
-    color: #272a31;
-    padding: 20px;
+  .ab-artPartner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f4f3f3;
+    background-color: rgb(39, 42, 49, 0.9);
+  }
+
+  .ab-artPartner h3 {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  .ab-artPartner hr {
+    margin: 15px 0;
+    border: #ec5242 1px solid;
+    width: 10%;
+  }
+
+  .sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  footer img {
+    filter: invert();
     margin: 30px;
-    width: 100%;
+  }
+
+  .sponsors img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #272a31;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
   }
 }
 
@@ -263,6 +307,7 @@
     background-image: url(./images/main_big.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     display: flex;
     flex-direction: column;
   }
@@ -272,7 +317,6 @@
     color: #ec5242;
   }
 
-  .header,
   .headline,
   .header h1 {
     padding: 2vh 5vw;
@@ -287,6 +331,11 @@
     align-items: center;
     justify-content: flex-end;
     padding: 1vh 0;
+  }
+
+  footer img {
+    filter: invert();
+    margin: 30px;
   }
 
   .top-menu img,
@@ -485,14 +534,45 @@
     margin: 3%;
   }
 
-  #moreBtn {
-    border: #d3d3d3 1px solid;
-    border-radius: 15px;
-    background-color: white;
+  .ab-artPartner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f4f3f3;
+    background-color: rgb(39, 42, 49, 0.9);
+  }
+
+  .ab-artPartner h3 {
+    margin-top: 5%;
+    font-size: 3em;
+  }
+
+  .ab-artPartner hr {
+    margin: 15px 0;
+    border: #ec5242 1px solid;
+    width: 10%;
+  }
+
+  .sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2%;
+  }
+
+  .sponsors img {
+    width: 25%;
+    height: auto;
+    margin: 1%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
     font-size: 2em;
     color: #272a31;
-    padding: 20px;
-    margin: 30px;
-    width: 100%;
+    padding: 3%;
+    text-align: center;
+    align-items: center;
   }
 }

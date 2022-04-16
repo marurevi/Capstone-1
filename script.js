@@ -15,7 +15,7 @@ function closePopup() {
 function menuDisplay() {
   hamburger.classList.toggle('hidden');
   quitBtn.classList.toggle('hidden');
-  menuPopup.classList.add('menuPopup');
+  menuPopup.classList.toggle('menuPopup');
   menuPopup.classList.remove('hidden');
 
   menuPopup.appendChild(quitBtn);
@@ -34,15 +34,15 @@ const cards = document.querySelector('.container-article');
 
 const speakers = [
   {
-    id: 'card1',
-    soloist: 'Captain Marvel',
+    cardid: 'card1',
+    speaker: 'Captain Marvel',
     photo: './images/speaker_01.png',
     power: 'Enhanced Physical Abilities.',
     description: "Captain Carol Danvers is a former United States Air Force pilot who, upon destroying the Lightspeed Engine made by her mentor Mar-Vell, was exposed to the Tesseract's energy, gaining cosmic powers and was abducted to serve the Kree Empire.",
   },
 
   {
-    id: 'card2',
+    cardid: 'card2',
     speaker: 'Green Lantern',
     photo: './images/speaker_02.png',
     power: 'Power Ring',
@@ -52,7 +52,7 @@ const speakers = [
   {
     cardid: 'card3',
     speaker: 'Doctor Strange',
-    photo: './images/speaker_03..png',
+    photo: './images/speaker_03.png',
     power: 'Magic to control the multiverse',
     description: "Doctor Strange serves as the Sorcerer Supreme, Earth's foremost protector against magical and mystical threats.",
   },
@@ -91,10 +91,10 @@ const Card = ({
     <ul> 
       <li>${speaker}</li>
       <li class="text1 cocogoose">${power}</li>
-      <li class="text2 lato">${description}</li>
+      <li class="text3 lato">${description}</li>
     </ul>
 </div>`;
 
 speakers.forEach((heroe) => {
-  cards.insertAdjacentHTML('afterbegin', Card(heroe));
+  cards.insertAdjacentHTML('beforeend', Card(heroe));
 });
