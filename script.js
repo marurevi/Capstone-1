@@ -8,7 +8,7 @@ menuPopup.classList.add('hidden');
 function closePopup() {
   hamburger.classList.toggle('hidden');
   quitBtn.classList.toggle('hidden');
-  menuItems.forEach((item) => { item.classList.remove ('hidden'); });
+  menuItems.forEach((item) => { item.classList.remove('hidden'); });
   menuPopup.classList.toggle('hidden');
   menuPopup.classList.toggle('menuPopup');
 }

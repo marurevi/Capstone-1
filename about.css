@@ -261,7 +261,7 @@
     display: flex;
     background-color: #272a31;
     color: #d3d3d3;
-    font-size: 24px;
+    font-size: 1em;
     padding: 1vh 2vw;
     justify-content: flex-end;
   }
