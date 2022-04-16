@@ -227,7 +227,7 @@
   }
 
   .sponsors img {
-    width: 30%;
+    width: 15%;
     height: auto;
     margin: 10px;
   }
@@ -292,7 +292,7 @@
     text-align: center;
     align-items: center;
     width: 100%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .menu-bar button {
@@ -453,7 +453,7 @@
   }
 
   .sponsors img {
-    width: 25%;
+    width: 15%;
     height: auto;
     margin: 1%;
   }
