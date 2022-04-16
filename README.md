@@ -8,7 +8,7 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
 You can see how it looks here 👉[Capstone](https://marurevi.github.io/Capstone-1/)
 
